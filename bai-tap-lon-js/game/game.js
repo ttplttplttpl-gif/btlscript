@@ -457,7 +457,7 @@ const gameData = {
       "https://play-lh.googleusercontent.com/VAxJd3C0F94AfzNtwtE6SJK7bMgJDIRn8uSdFiGMRDrrmmdJuLKMUMUU5-WuD3eoZWM=w526-h296-rw",
       "https://preview.redd.it/new-to-terraria-v0-sgelayjr52ng1.jpeg?width=640&crop=smart&auto=webp&s=87fa44d43d2b0ead7b83cf8c2053079bca408510",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX8sdwTcoVzqNoY6-2t413wfGv9sxN5h6qLw&s",
-      "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2026/01/terraria-1-4-5-update-bigger-and-boulder-all-changes-new-items-creatures-features-additions-relogic-sandbox-rpg.jpg",
+      "https://i.ytimg.com/vi/UGo7iMUcxLc/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AG-B4AC0AWKAgwIABABGGUgWShMMA8=&rs=AOn4CLA4WZ4A2oQUuSywx28JZK76MenWBg",
     ],
 
     tagline: "Đào sâu hơn. Chiến đấu mạnh hơn. Khám phá vô tận.",
@@ -5155,7 +5155,7 @@ const gameData = {
     images: [
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/header.jpg?t=1759852929",
       "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/ss_7a147e0dd092400229c6c1fd513625a62ae9a4eb.1920x1080.jpg?t=1759852929",
-      "https://stevivor.com/wp-content/uploads/2020/09/MafiaReview1.webp",
+      "https://images-na.ssl-images-amazon.com/images/I/81s41C04+lL.jpg",
       "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030840/ss_f531c551d9794deafc1e45421b70e8d4c254aaca.1920x1080.jpg?t=1779310017",
       "https://media.gqitalia.it/photos/5f7c01c2c6e0bedb05357e44/16:9/w_2560%2Cc_limit/MafiaDE-LostHeaven1-1920.jpg",
     ],
@@ -5921,6 +5921,7 @@ function renderPage(game) {
         ? `✅ Thêm game thành công!\n\n"${game.name}" đã được lưu vào thư viện.`
         : `✅ Thanh toán thành công!\n\n"${game.name}" đã được lưu vào thư viện.\nSố dư còn lại: ${newBalance.toLocaleString("vi-VN")}đ`,
     );
+    location.reload();
   });
 }
 
