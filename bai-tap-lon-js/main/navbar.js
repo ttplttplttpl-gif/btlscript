@@ -27,7 +27,7 @@
         policy: "../main/chinhsach.html",
         login: "../login/login.html",
         logo: "../logo.jpg",
-        showSearch: true,
+        showSearch: false,
       };
     }
     return {
